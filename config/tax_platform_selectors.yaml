@@ -1,0 +1,22 @@
+url: "https://inv-veri.chinatax.gov.cn"
+timeout_ms: 30000
+common:
+  invoice_number:
+    - "input[placeholder*='发票号码']"
+    - "#fphm"
+  invoice_code:
+    - "input[placeholder*='发票代码']"
+    - "#fpdm"
+  issue_date:
+    - "input[placeholder*='开票日期']"
+    - "#kprq"
+  total_amount:
+    - "input[placeholder*='价税合计']"
+    - "input[placeholder*='金额']"
+    - "#kjje"
+  verify_button:
+    - "button:has-text('查验')"
+    - "#checkfp"
+result:
+  success_keywords: ["查验次数", "发票号码", "价税合计", "电子发票"]
+  failure_keywords: ["查验失败", "不一致", "超过该张发票当天查验次数"]

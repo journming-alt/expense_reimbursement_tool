@@ -1,0 +1,9 @@
+transport:
+  train_keywords: ["铁路电子客票", "高铁", "动车", "车次"]
+  flight_keywords: ["航空运输电子客票行程单", "航班号", "承运人"]
+hotel:
+  keywords: ["住宿服务", "住宿费", "入住人", "入离时间"]
+meal:
+  keywords: ["餐饮服务", "餐费"]
+local_transport:
+  keywords: ["出租车", "网约车", "客运服务"]

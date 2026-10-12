@@ -1,0 +1,14 @@
+streamlit>=1.35
+openpyxl>=3.1
+pydantic>=2.6
+pypdf>=4.0
+pandas>=2.0
+PyYAML>=6.0
+playwright>=1.44
+reportlab>=4.0
+pillow>=10.0
+pdfplumber>=0.11
+PyMuPDF>=1.24
+
+# 可选 OCR 兜底，安装体积较大；PDF/OFD 文本解析失败时再安装：
+# paddleocr>=2.7
